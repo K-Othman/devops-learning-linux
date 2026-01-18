@@ -72,3 +72,22 @@ Create a script that copies all .txt files from the Arena directory to a new dir
 
 **Challenge Overcome:**
 Learning how to copy multiple files at once using globbing instead of trying to pipe filenames between commands.
+
+## ------------------------------------
+
+## Level 5 – Boss Battle: Combining Basics
+
+**Mission:** 
+Combine core Bash concepts by creating files, checking conditions, moving files, and listing directory contents.
+
+**Script:** level-05-boss-battle.sh
+
+**Key Learnings:**
+
+- Creating and managing directories
+- Creating multiple files efficiently
+- Checking file existence before performing actions
+- Moving files between directories
+- Listing contents of multiple directories
+**Challenge Overcome:**
+Combining file creation, conditional checks, and file movement into a single script while maintaining correct execution order and directory structure.
