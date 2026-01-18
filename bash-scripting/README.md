@@ -35,3 +35,23 @@ Create a script that outputs the numbers 1 to 10, one number per line.
 - Printing values with echo
 - Challenge Overcome:
 - Getting comfortable with Bash loop syntax and understanding how variables are expanded inside loops.
+
+
+## ------------------------------------
+
+**Mission:** 
+Write a script that checks if a file named hero.txt exists in the Arena directory. If it does, print Hero found!; otherwise, print Hero missing!.
+
+**Script:** `level-03-conditionals.sh`
+
+**Key Learnings:**
+
+- Using if / else conditional statements
+- Checking file existence with test operators
+- Understanding file test flags in Bash
+- Controlling script flow based on conditions
+
+**Challenge Overcome:**
+Learning the difference between testing strings and testing filesystem objects, and using the correct file test operator for reliable condition checks.
+
+## ------------------------------------
