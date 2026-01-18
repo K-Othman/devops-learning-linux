@@ -38,6 +38,7 @@ Create a script that outputs the numbers 1 to 10, one number per line.
 
 
 ## ------------------------------------
+## Level 3: Conditional Statements
 
 **Mission:** 
 Write a script that checks if a file named hero.txt exists in the Arena directory. If it does, print Hero found!; otherwise, print Hero missing!.
@@ -55,3 +56,19 @@ Write a script that checks if a file named hero.txt exists in the Arena director
 Learning the difference between testing strings and testing filesystem objects, and using the correct file test operator for reliable condition checks.
 
 ## ------------------------------------
+
+## Level 4 – File Manipulation
+
+**Mission:** 
+Create a script that copies all .txt files from the Arena directory to a new directory called Backup.
+
+**Script:** `level-04-file-manipulation.sh`
+
+**Key Learnings:**
+- Using glob patterns (*.txt) to match files
+- Copying multiple files with a single command
+- Understanding source and destination paths
+- Working with directories in file operations
+
+**Challenge Overcome:**
+Learning how to copy multiple files at once using globbing instead of trying to pipe filenames between commands.
