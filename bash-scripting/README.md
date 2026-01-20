@@ -91,3 +91,22 @@ Combine core Bash concepts by creating files, checking conditions, moving files,
 - Listing contents of multiple directories
 **Challenge Overcome:**
 Combining file creation, conditional checks, and file movement into a single script while maintaining correct execution order and directory structure.
+
+## ------------------------------------
+
+## Level 6 – Argument Parsing
+
+**Mission:** 
+- Write a script that accepts a filename as an argument and prints the number of lines in that file. If no filename is provided, display a message saying No file provided.
+**Script:**  level-06-argument-parsing.sh
+
+**Key Learnings:**
+- Using positional parameters ($1, $#) to handle command-line arguments
+- Validating user input before processing
+- Checking file existence with test operators
+- Counting lines efficiently using wc -l
+
+**Challenge Overcome:**
+Understanding the difference between interactive input and command-line arguments, and handling missing or invalid input gracefully in Bash scripts.
+
+## ------------------------------------
