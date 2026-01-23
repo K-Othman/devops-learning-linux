@@ -110,3 +110,20 @@ Combining file creation, conditional checks, and file movement into a single scr
 Understanding the difference between interactive input and command-line arguments, and handling missing or invalid input gracefully in Bash scripts.
 
 ## ------------------------------------
+
+## Level 7 – File Sorting Script
+
+**Mission:** 
+- Write a script that sorts all .txt files in a directory by their size, from smallest to largest, and displays the sorted list.
+
+**Script:**  level-07-file-sorting.sh
+
+**Key Learnings:**
+- Discovering files recursively using find
+- Retrieving file metadata such as file size
+- Sorting command output numerically using sort
+- Combining multiple commands into a processing pipeline
+- Formatting output using text-processing tools
+
+**Challenge Overcome:**
+Understanding that sorting files by size requires first exposing file size as part of the data stream, and learning how to chain commands together to transform raw file information into a correctly sorted and readable output.
