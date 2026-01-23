@@ -127,3 +127,20 @@ Understanding the difference between interactive input and command-line argument
 
 **Challenge Overcome:**
 Understanding that sorting files by size requires first exposing file size as part of the data stream, and learning how to chain commands together to transform raw file information into a correctly sorted and readable output.
+
+## ------------------------------------
+## Level 7 – Multi-File Searcher
+**Mission:** 
+Create a script that searches for a specific word or phrase across all .log files in a directory and outputs the names of the files that contain the word or phrase.
+
+**Script:** level-08-multi-file-searcher.sh
+
+**Key Learnings:**
+Searching text across multiple files using grep
+Handling words and multi-word phrases safely
+Validating required input before execution
+Using command exit codes to detect search results
+Printing filenames only when matches are found
+
+**Challenge Overcome:**
+Understanding that “no matches found” is determined by a command’s exit code rather than variable checks, and learning how to separate input validation from result validation in Bash scripts.
