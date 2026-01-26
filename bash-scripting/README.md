@@ -144,3 +144,5 @@ Printing filenames only when matches are found
 
 **Challenge Overcome:**
 Understanding that “no matches found” is determined by a command’s exit code rather than variable checks, and learning how to separate input validation from result validation in Bash scripts.
+
+## ------------------------------------
